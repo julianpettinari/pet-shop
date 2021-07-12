@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    }
+
+html{
+    font-size: 16px;
+
+}
+
+
+body{
+width: 100vw;
+font-family: 'Roboto', sans-serif;
+font-weight: 400px;
+}
+
+header div.upper_nav{
+    background: #222222;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#F3F3F3;
+    font-size: 10px;
+    padding: 0 60px 0 90px;
+
+}
+
+header div.upper_nav nav ul{
+    width: 150px;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+header div.upper_nav nav ul li a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+header div.upper_nav nav ul li a::after{
+    content: url('/img/v-Vector.png');
+    margin-left: 4px;
+
+}
+
+header div.main_nav{
+    background:#F0A83E;
+    height: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+
+header div.main_nav nav.nav_bar_site ul{
+    width:450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+header div.main_nav nav.nav_bar_site ul li a{
+text-decoration: none;
+color: #F3F3F3;
+}
+
+header div.main_nav nav.nav_bar_site ul li a::before{
+    content: '\f1b0';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 4px;
+}
+
+main{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main div.top_banner{
+    align-self: stretch;
+    background-image: url(/img/bowl-and-pet-daities-on-green-background.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    height: 409px;
+    padding: 10px 10px;
+}
+
+main div.top_banner div.banner_content{
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35%;
+
+}
+
+main div.top_banner div.banner_content h2{
+    font-size: 30px;
+    font-weight: 400;
+    color:#3C2313;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+}
+main div.top_banner div.banner_content span{
+    color:#3C2313 ;
+    font-weight: 400;
+}
+
+main div.top_banner div.banner_content button{
+    background: #F0A83E;
+    color:white;
+    text-transform:uppercase;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 140px;
+
+}
+
+main div.nav-principal{
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main div.nav-principal h1{
+    color: #3C2313;
+    font-size: 40px;
+}
+
+main div.nav-principal nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin:0 6px;
+
+}
+
+main div.nav-principal nav ul li a{
+    text-decoration: none;
+    color: #666666;
+}
+
+main section.productos{
+    margin: 50px 0 80px 0;
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main section.productos a.product-items{
+text-decoration: none;
+color: #666666;
+}
+
+main section.productos a.product-items article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main section.productos a.product-items article p{
+    color:#3C2313;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main section.productos a.product-items article span{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main div.contacto{
+    align-self: center;
+    margin: 15px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 264px;  */
+}
+
+main div.contacto h4{
+    color:#3C2313;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+main div.contacto form div.lbl_input{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+main div.contacto form div.lbl_input label{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+main div.contacto form div.botones{
+    display:flex;
+    justify-content: center;
+    margin-top:35px;
+}
+
+main div.contacto form input[type=submit]{
+    background: #F0A83E;
+    border: none;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    color: #ffffff;
+    font-size: 16px;
+    margin:5px 5px;
+    cursor: pointer;
+
+}
+
+main div.contacto form button{
+    background:#8A8787;
+    border: none;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    color: #ffffff;
+    font-size: 16px;
+    margin:5px 5px;
+    cursor: pointer;
+
+}
+
+
+
+main div.contacto form input[type=text],
+main div.contacto form input[type=tel],
+main div.contacto form input[type=email]{
+    background: #3C2313;
+    border-radius: 15px;
+    border: none;
+    width:340px;
+    height: 40px;
+    color:#ffffff;
+    margin:3px;
+    padding-left: 10px;
+}
+
+main div.container-subscription{
+    align-self:stretch;
+    background: #F0A83E;
+    height:60px;
+}
+
+main div.container-subscription form{
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 25px;
+}
+
+main div.container-subscription form div.left-subscription{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main div.container-subscription form div.left-subscription label{
+    margin-left:10px;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+main div.container-subscription form div.right-subscription{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main div.container-subscription form div.right-subscription input{
+    background: white;
+    flex-shrink: 1;
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 8px;
+    border:none;
+}
+
+main div.container-subscription form div.right-subscription button{
+    background:#3C2313;
+    color: white;
+    font-size: 9px;
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    margin-left: 5px;
+    padding-left: 8px;
+    border:none;
+}
+footer{
+    width: 100%;
+}
+
+footer div.upper-footer{
+    background:#3C2313;
+    height: 284px;
+    width:100%;
+    padding: 23px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+footer div.upper-footer div.contacto{
+    /* width: 25%; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer div.upper-footer div.contacto div.dual{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+footer div.upper-footer div.contacto div.dual-data{
+    width: 100%;
+    display: flex;
+    padding-left: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+footer div.upper-footer div.contacto div.dual-data h3{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+footer div.upper-footer div.contacto div.dual-data span{
+    color:#8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+footer div.bottom-footer{
+    background: #222222;
+    /* height: 20px; */
+}
+
+footer div.bottom-footer p{
+    color:#FFFFFF;
+    font-size: 10px;
+    font-weight: 700;
+    text-align:center;
+    line-height: 20px;
+}
