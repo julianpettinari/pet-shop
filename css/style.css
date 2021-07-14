@@ -3,18 +3,18 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    }
+
+}
 
 html{
     font-size: 16px;
-
 }
 
 
 body{
-width: 100vw;
-font-family: 'Roboto', sans-serif;
-font-weight: 400px;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 header div.upper_nav{
@@ -43,7 +43,7 @@ header div.upper_nav nav ul li a{
 }
 
 header div.upper_nav nav ul li a::after{
-    content: url('/img/v-Vector.png');
+    content: url('../img/v-Vector.png');
     margin-left: 4px;
 
 }
@@ -90,7 +90,7 @@ main{
 
 main div.top_banner{
     align-self: stretch;
-    background-image: url(/img/bowl-and-pet-daities-on-green-background.png);
+    background: url("../img/bowl-and-pet-daities-on-green-background.png");
     display: flex;
     justify-content: flex-end;
     align-items: center;
